@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" styleClass="main-container" stylesheets="@math.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.AlgebraPageController">
+    <AnchorPane layoutX="194.0" layoutY="111.0" prefHeight="541.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../../math/algebra.jpg" />
+        </ImageView>
+        <Label layoutX="45.0" layoutY="277.0" text="Algebra">
+            <font>
+                <Font name="Book Antiqua Bold" size="30.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane layoutX="366.0" layoutY="39.0" prefHeight="33.0" prefWidth="960.0" styleClass="close-btn_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Button fx:id="exitBtn1" layoutX="915.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitToMath1" prefHeight="20.0" prefWidth="36.0" styleClass="close-btn" text="X">
+        <font>
+          <Font name="Arial Bold" size="12.0" />
+        </font>
+    </Button>
+   <Button fx:id="nextBtn1" layoutX="922.0" layoutY="286.0" mnemonicParsing="false" onAction="#next1" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&gt;">
+      <font>
+         <Font name="Arial Bold" size="18.0" />
+      </font>
+   </Button>
+   <Label layoutX="570.0" layoutY="544.0" text="Page 1">
+      <font>
+         <Font name="Book Antiqua" size="12.0" />
+      </font>
+   </Label>
+   <Text layoutX="265.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecture 1 : Algebraic Expression Introduction" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua Bold" size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What are algebraic expressions used for?" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Line endX="20.20001220703125" endY="7.62939453125E-6" layoutX="357.0" layoutY="82.0" startX="-100.0" />
+   <Text layoutX="265.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: Algebraic expressions are used to express various mathematical formulas, theorems, equations and inequalities." wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imagine a situation where a bouquet of flowers consists of 7 roses. How many roses are needed to make 4 such bouquets? " wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: 7 x 4 = 28" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Now, let's suppose that we need to make n bouquets of roses. Then the answer will be as follows:" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: 7 x n = 7n" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*As you can see, to make n bouquets of roses, we will need 7n roses. 7n is an algebraic expression that allows you to calculate the number of roses needed to make a bouquet. Notice that the letter n stands for the number of bouquets of roses, and if we replace this letter with the number of bouquets to make, we will obtain the number of roses needed to make these bouquets" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="17.0" />
+      </font>
+   </Text>
+   <Text layoutX="265.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Examples of algebraic expressions:" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Text layoutX="450.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2a/4 , 3+a , 2x-4y , x² ,  x÷y" wrappingWidth="240.88323974609375">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+</AnchorPane>

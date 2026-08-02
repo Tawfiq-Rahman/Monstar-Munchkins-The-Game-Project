@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" styleClass="main-container" stylesheets="@math.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.AlgebraTestPage1Controller">
+   <AnchorPane layoutX="90.0" layoutY="195.0" prefHeight="541.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../../math/algebra.jpg" />
+      </ImageView>
+      <Label layoutX="45.0" layoutY="277.0" text="Algebra">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="325.0" text="Test">
+         <font>
+            <Font name="Book Antiqua Bold" size="30.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+   <AnchorPane layoutX="417.0" layoutY="51.0" prefHeight="33.0" prefWidth="960.0" styleClass="close-btn_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   <Button fx:id="testExitBtn1" layoutX="915.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitToAlgebraPage7" prefHeight="20.0" prefWidth="36.0" styleClass="close-btn" text="X">
+      <font>
+         <Font name="Arial Bold" size="12.0" />
+      </font>
+   </Button>
+   <Text layoutX="265.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1. In the garden there are 10 more roses then tulips.The number of tulips is x. How many roses are there in the garden?" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Button fx:id="q1Option4Btn" layoutX="648.0" layoutY="168.0" mnemonicParsing="false" onAction="#q1Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="10x">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q1Option3Btn" layoutX="265.0" layoutY="168.0" mnemonicParsing="false" onAction="#q1Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="10">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q1Option2" layoutX="648.0" layoutY="120.0" mnemonicParsing="false" onAction="#q1Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="x + 20">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Text layoutX="265.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q2. Simply expression: 5a - 9b - 7a - 10b" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Button fx:id="q2Option1Btn" layoutX="265.0" layoutY="270.0" mnemonicParsing="false" onAction="#q2Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="3a - 9b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q2Option2Btn" layoutX="648.0" layoutY="270.0" mnemonicParsing="false" onAction="#q2Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="-2a - 19b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q2Option3Btn" layoutX="265.0" layoutY="320.0" mnemonicParsing="false" onAction="#q2Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="-7a + b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q2Option4Btn" layoutX="648.0" layoutY="320.0" mnemonicParsing="false" onAction="#q2Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="-10a - b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Text layoutX="265.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q2. Simply expression: - 5a - 4(-b - 10a) + 3a" wrappingWidth="634.4832153320312">
+      <font>
+         <Font name="Book Antiqua" size="20.0" />
+      </font>
+   </Text>
+   <Button fx:id="q3Option1Btn" layoutX="265.0" layoutY="424.0" mnemonicParsing="false" onAction="#q3Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="32a - 11b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q3Option2Btn" layoutX="648.0" layoutY="424.0" mnemonicParsing="false" onAction="#q3Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="43a + 40b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q3Option3Btn" layoutX="265.0" layoutY="474.0" mnemonicParsing="false" onAction="#q3Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="38a + 4b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="q3Option4Btn" layoutX="648.0" layoutY="474.0" mnemonicParsing="false" onAction="#q3Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="42a - b">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="testNextBtn1" layoutX="922.0" layoutY="286.0" mnemonicParsing="false" onAction="#textNext1" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&gt;">
+      <font>
+         <Font name="Arial Bold" size="18.0" />
+      </font>
+   </Button>
+   <Label layoutX="570.0" layoutY="544.0" text="Page 1">
+      <font>
+         <Font name="Book Antiqua" size="12.0" />
+      </font>
+   </Label>
+   <Button fx:id="q1Option1Btn" layoutX="265.0" layoutY="120.0" mnemonicParsing="false" onAction="#q1Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="x + 10">
+      <font>
+         <Font name="Book Antiqua" size="18.0" />
+      </font>
+   </Button>
+</AnchorPane>

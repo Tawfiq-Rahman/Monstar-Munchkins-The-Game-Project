@@ -1,0 +1,8 @@
+.input_field {
+    -fx-background-radius: 100;
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,1), 10.0, 0.0, 0.0, 10.0 );
+}
+
+.login_container Button:hover {
+    -fx-cursor: hand;
+}

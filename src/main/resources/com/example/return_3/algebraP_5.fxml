@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" styleClass="main-container" stylesheets="@math.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.AlgebraPageController">
+    <AnchorPane layoutX="194.0" layoutY="111.0" prefHeight="541.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../../math/algebra.jpg" />
+        </ImageView>
+        <Label layoutX="45.0" layoutY="277.0" text="Algebra">
+            <font>
+                <Font name="Book Antiqua Bold" size="30.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane layoutX="366.0" layoutY="39.0" prefHeight="33.0" prefWidth="960.0" styleClass="close-btn_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Button fx:id="exitBtn5" layoutX="915.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitToMath5" prefHeight="20.0" prefWidth="36.0" styleClass="close-btn" text="X">
+        <font>
+          <Font name="Arial Bold" size="12.0" />
+        </font>
+    </Button>
+    <Button fx:id="nextBtn5" layoutX="922.0" layoutY="286.0" mnemonicParsing="false" onAction="#next5" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&gt;">
+        <font>
+          <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <Label layoutX="570.0" layoutY="544.0" text="Page 5">
+        <font>
+          <Font name="Book Antiqua" size="12.0" />
+        </font>
+    </Label>
+    <Text layoutX="265.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: There are 7 coins in the first row - 3 coins worth X and 4 coins worth Y. We can write that the coins in the first row are worth 3x + 4y." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are 4 coins in the second row - 2 coins worth X and 2 coins worth Y. We can write that the coins in the second row are worth    2x + 2y." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Button fx:id="backBtn4" layoutX="202.0" layoutY="286.0" mnemonicParsing="false" onAction="#back4" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&lt;">
+        <font>
+          <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <Text layoutX="265.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The coins are worth 5x+6y, which can be seen in the figure, as there are 5 coins worth X and 6 coins worth Y." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As you can see, adding and subtracting algebraic sums involves performing addition or subtraction of expressions with the same letters." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Now we can calculate the value of the coins in both rows:" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="436.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(3x + 4y) + (2x + 2y) = 5x + 6y" wrappingWidth="266.48321533203125">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Problem: Simplify the expression 3a + 4b - 2a + 5b – 7" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Line endX="5.60003662109375" layoutX="339.0" layoutY="365.0" startX="-74.0" />
+    <Text layoutX="265.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: 3a + 4b - 2a + 5b - 7  =&gt;  a + 9b – 7" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Problem: Simplify the expression 2x - (3y - 5x) + 8y" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Line endX="3.4000244140625" endY="-3.0517578125E-5" layoutX="342.0" layoutY="441.0" startX="-77.0" startY="0.999969482421875" />
+    <Text layoutX="265.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ans: 2x - (3y - 5x) + 8y" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="276.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=&gt;  2x - 3y + 5x + 8y" wrappingWidth="184.08319091796875">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="276.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=&gt;  7x + 5" wrappingWidth="100.0">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+</AnchorPane>

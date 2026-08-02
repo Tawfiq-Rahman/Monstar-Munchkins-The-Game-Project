@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" styleClass="main-container" stylesheets="@math.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.AlgebraTestPage3Controller">
+    <AnchorPane layoutX="90.0" layoutY="195.0" prefHeight="541.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../../math/algebra.jpg" />
+        </ImageView>
+        <Label layoutX="45.0" layoutY="277.0" text="Algebra">
+            <font>
+                <Font name="Book Antiqua Bold" size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="325.0" text="Test">
+            <font>
+                <Font name="Book Antiqua Bold" size="30.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane layoutX="417.0" layoutY="51.0" prefHeight="33.0" prefWidth="960.0" styleClass="close-btn_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Button fx:id="testExitBtn3" layoutX="915.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitToAlgebraPage7" prefHeight="20.0" prefWidth="36.0" styleClass="close-btn" text="X">
+        <font>
+          <Font name="Arial Bold" size="12.0" />
+        </font>
+    </Button>
+    <Text layoutX="265.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q7. Find the value of 'a' :  5a + 3 = -7" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Button fx:id="q7Option1Btn" layoutX="265.0" layoutY="93.0" mnemonicParsing="false" onAction="#q7Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="a = -2">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q7Option4Btn" layoutX="648.0" layoutY="143.0" mnemonicParsing="false" onAction="#q7Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="a = -5/6">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q7Option3Btn" layoutX="265.0" layoutY="143.0" mnemonicParsing="false" onAction="#q7Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="a = -5/4">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q7Option2Btn" layoutX="648.0" layoutY="93.0" mnemonicParsing="false" onAction="#q7Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="a = -5">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Text layoutX="265.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q8. Simply expression: -10x - 3y + 4(8x + 5y)" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Button fx:id="q8Option1Btn" layoutX="265.0" layoutY="252.0" mnemonicParsing="false" onAction="#q8Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="26x + 2y">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q8Option2Btn" layoutX="648.0" layoutY="252.0" mnemonicParsing="false" onAction="#q8Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="15x + 20y">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q8Option3Btn" layoutX="265.0" layoutY="302.0" mnemonicParsing="false" onAction="#q8Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="22x + 17y">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q8Option4Btn" layoutX="648.0" layoutY="302.0" mnemonicParsing="false" onAction="#q8Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="19x - 3y">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Text layoutX="265.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q9. Simply expression: -7x(-9x + 7y)" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Button fx:id="q9Option1Btn" layoutX="265.0" layoutY="414.0" mnemonicParsing="false" onAction="#q9Option1" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="63x^2 + 7xy">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q9Option2Btn" layoutX="648.0" layoutY="414.0" mnemonicParsing="false" onAction="#q9Option2" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="63x - 49xy">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q9Option3Btn" layoutX="265.0" layoutY="464.0" mnemonicParsing="false" onAction="#q9Option3" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="63x^2 - 49xy">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="q9Option4Btn" layoutX="648.0" layoutY="464.0" mnemonicParsing="false" onAction="#q9Option4" prefHeight="30.0" prefWidth="250.0" styleClass="option-btn" text="-9x^2 - 49xy">
+        <font>
+          <Font name="Book Antiqua" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="testNextBtn3" layoutX="922.0" layoutY="286.0" mnemonicParsing="false" onAction="#textNext3" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&gt;">
+        <font>
+          <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <Label layoutX="570.0" layoutY="544.0" text="Page 3">
+        <font>
+          <Font name="Book Antiqua" size="12.0" />
+        </font>
+    </Label>
+</AnchorPane>

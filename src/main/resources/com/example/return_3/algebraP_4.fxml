@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" styleClass="main-container" stylesheets="@math.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.AlgebraPageController">
+    <AnchorPane layoutX="194.0" layoutY="111.0" prefHeight="541.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../../math/algebra.jpg" />
+        </ImageView>
+        <Label layoutX="45.0" layoutY="277.0" text="Algebra">
+            <font>
+                <Font name="Book Antiqua Bold" size="30.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane layoutX="366.0" layoutY="39.0" prefHeight="33.0" prefWidth="960.0" styleClass="close-btn_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Button fx:id="exitBtn4" layoutX="915.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitToMath4" prefHeight="20.0" prefWidth="36.0" styleClass="close-btn" text="X">
+        <font>
+          <Font name="Arial Bold" size="12.0" />
+        </font>
+    </Button>
+    <Button fx:id="nextBtn4" layoutX="922.0" layoutY="286.0" mnemonicParsing="false" onAction="#next4" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&gt;">
+        <font>
+          <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <Label layoutX="570.0" layoutY="544.0" text="Page 4">
+        <font>
+          <Font name="Book Antiqua" size="12.0" />
+        </font>
+    </Label>
+    <Text layoutX="265.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Problem: Calculate the numerical value of the expression x2 + 2y for x = 5 and y = - 3?" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To solve the problem, substitute 5 into equation for the variable x and -3 for the variable y." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Button fx:id="backBtn3" layoutX="202.0" layoutY="286.0" mnemonicParsing="false" onAction="#back3" prefHeight="36.0" prefWidth="36.0" styleClass="next_back_btn" text="&lt;">
+        <font>
+          <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <Line endX="46.20001220703125" endY="7.62939453125E-6" layoutX="300.0" layoutY="80.0" startX="-34.0" />
+    <Text layoutX="404.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X2 + 2y = 52 + 2 × (-3)  =&gt;  25 - 6 = 19" wrappingWidth="331.28314208984375">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecture 2 : Addition &amp; Subtraction of Algebric Expressions" wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua Bold" size="25.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adding and subtracting algebraic expressions involves adding and subtracting monomials. Look at the examples below to learn how to add and reduce algebraic sums." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Text layoutX="265.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Problem: In the graphic below, there are coins of value X and Y in two rows. Calculate the value of the coins in the two rows." wrappingWidth="634.4832153320312">
+        <font>
+          <Font name="Book Antiqua" size="20.0" />
+        </font>
+    </Text>
+    <Line endX="80.20001220703125" layoutX="298.0" layoutY="260.0" startX="-34.0" />
+    <Line endX="46.20001220703125" endY="7.62939453125E-6" layoutX="300.0" layoutY="419.0" startX="-34.0" />
+    <ImageView fitHeight="100.0" fitWidth="250.0" layoutX="463.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../math/Q.png" />
+    </ImageView>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.return_3.Controllers.puzzGame.CongratulationController">
+   <children>
+      <ImageView fitHeight="576.0" fitWidth="842.0" layoutX="192.0" layoutY="27.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../gameCenter/puzzGame/menu.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="322.0" layoutX="319.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../gameCenter/puzzGame/congratulation.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_playAgain" layoutX="366.0" layoutY="311.0" mnemonicParsing="false" onAction="#playAgain" prefHeight="50.0" prefWidth="200.0" text="Play Again" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btn_mainMenu" layoutX="366.0" layoutY="418.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="50.0" prefWidth="200.0" text="Main Menu">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Label fx:id="timeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="289.0" layoutY="214.0" prefHeight="17.0" prefWidth="355.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

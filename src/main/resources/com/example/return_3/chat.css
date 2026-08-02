@@ -1,0 +1,37 @@
+/* chat.css */
+
+.chat-label {
+    -fx-border-color: #c4c4c4;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+    -fx-background-color: #f9f9f9;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.chat-text-area {
+    -fx-border-color: #c4c4c4;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.chat-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 5 15;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.exit-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-padding: 5 15;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+}
