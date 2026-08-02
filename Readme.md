@@ -23,7 +23,8 @@
 11. [Database Schema & Setup](#database-schema--setup)
 12. [Screenshots](#screenshots)
 13. [Gameplay Video](#gameplay-video)
-14. [Credits & Resources](#credits--resources)
+14. [Future Scope](#future-scope)
+15. [Credits & Resources](#credits--resources)
 
 ---
 
@@ -273,6 +274,18 @@ _Player's House_
 Watch the gameplay video on [YouTube](https://youtu.be/zc406nTytZ4?si=YOuMyCu4L_-P7Csz).
 
 [![Watch the video](https://img.youtube.com/vi/zc406nTytZ4/0.jpg)](https://youtu.be/zc406nTytZ4?si=YOuMyCu4L_-P7Csz)
+
+---
+
+## Future Scope
+
+While *Monster Munchkins* is fully playable and feature-rich, there is always room to grow the world. Future updates and expansions could include:
+
+1. **Co-op Multiplayer Gameplay:** Transitioning the global chat server into a full multiplayer server where players can see each other in the world, trade items, and fight boss monsters together.
+2. **Advanced Crafting System:** Allowing players to collect raw materials (wood, stone, monster drops) to craft their own weapons, armor, and unique potions.
+3. **Dynamic Quest System:** Adding daily quests and side quests from NPCs to give players secondary objectives and reward them with rare loot or experience points.
+4. **Leaderboards & Achievements:** Utilizing the existing MySQL database to create a global leaderboard (highest level, most monsters killed, fastest completion) and an achievement system.
+5. **More Biomes & Dungeons:** Expanding the map with new islands (e.g., Desert, Snow, Volcano), each featuring unique puzzles, weather effects, and exclusive monster types.
 
 ---
 
